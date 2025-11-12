@@ -1,7 +1,7 @@
 import google.genai as genai
 
 # --- Initialize Gemini ---
-client = genai.Client(api_key=" AIzaSyBYqyWNNEADlgzG7X7kWJCkI6TsdQ5ESsQ")
+client = genai.Client(api_key=" API_KEY")
 
 # --- Set your name here ---
 your_name = "Unnis"  # change to your name
@@ -31,3 +31,4 @@ while True:
         break
     reply = funny_agent(user_text)
     print("FunnyBot:", reply)
+
